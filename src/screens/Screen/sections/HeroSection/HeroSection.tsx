@@ -81,9 +81,9 @@ export const HeroSection = (): JSX.Element => {
             className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 lg:gap-12 w-full max-w-4xl mx-auto px-2 sm:px-4"
           >
             {[
-              { label: "Active Servers", value: "40+" },
+              { label: "Active Servers", value: "50+" },
               { label: "Happy Users", value: "22k+" },
-              { label: "Total Commands", value: "70+" },
+              { label: "Total Commands", value: "75+" },
               { label: "Service Uptime", value: "99.9%" }
             ].map((stat, index) => (
               <motion.div
